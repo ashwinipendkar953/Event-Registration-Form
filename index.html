@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Registration Form</title>
+  </head>
+  <body>
+    <h1>Event Registration Form</h1>
+    <label for="name">Name: </label>
+    <input id="name" name="name" />
+    <br />
+    <br />
+
+    <label for="email">Email Address: </label>
+    <input type="email" id="email" name="email" />
+    <br />
+    <br />
+
+    <label>Event Type:</label>
+    <br />
+    <label for="conference"
+      ><input
+        type="radio"
+        id="conference"
+        name="eventType"
+        value="Conference"
+      />
+      Conference</label
+    >
+    <br />
+    <label for="workshop"
+      ><input type="radio" id="workshop" name="eventType" value="Workshop" />
+      Workshop</label
+    >
+    <br />
+    <label for="networking">
+      <input type="radio" id="networking" name="eventType" value="NetWorking" />
+      NetWorking
+    </label>
+    <br />
+    <br />
+
+    <label>Dietary Restrictions:</label><br />
+    <label for="veg">
+      <input type="checkbox" id="veg" name="diet" value="Vegetarian" />
+      Vegetarian
+    </label>
+    <br />
+    <label for="vegan">
+      <input type="checkbox" id="vegan" name="diet" value="Vegan" /> Vegan
+    </label>
+    <br />
+    <label for="gluten-free">
+      <input type="checkbox" id="gluten-free" name="diet" value="Gluten-free" />
+      Gluten-free
+    </label>
+    <br /><br />
+
+    <label>T-shirt Size:</label>
+    <select>
+      <option value="Small">Small</option>
+      <option value="Medium">Medium</option>
+      <option value="Large">Large</option>
+    </select>
+    <br /><br />
+
+    <button type="submit">Register</button>
+  </body>
+</html>
